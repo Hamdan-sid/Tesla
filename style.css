@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.nav1{
+    height: 52px;
+    background-color: #f4f4f4;
+    color: #393c41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.txt1{
+    color: #171A20;
+    padding-right: 10px;
+    font-weight: 525;
+    font-size: 14px;
+    word-spacing: 0.7px;
+}
+.learn{
+    text-decoration: underline;
+    color: #393c41;
+    font-weight: 450;
+    font-size: 14px;
+}
+.nav2{
+    height: 60px;
+    display: flex;
+    justify-content:space-around;
+}
+.logo{
+    height: 56px;
+    width: 160px;
+    background-image: url("log.PNG");
+    background-size: cover;
+}
+.items{
+    height: 56px;
+    width: 552px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6px;
+}
+#same{ 
+    height: 34px;
+    width: 86px;
+    font-family: sans-serif;
+    color: #171A20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#same:hover{
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    transition: all 1s ease-out;
+}
+#samet{
+    font-size: 14px;
+    color: #171A20;
+    font-size: 13px;
+    font-weight: 560;
+}
+.icons{
+    height: 56px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6px;
+}
+#ss1{
+   padding-left: 90px;
+}
+#ss{
+    padding-left: 44px;
+}
+#ss3{
+    padding-right: 36px;
+    padding-left: 34px;
+}
+.hero1{
+    background-image: url("first.PNG");
+    background-size: cover;
+    height: 625px;
+    margin-top: 40px;
+    
+}
+.headingy{
+    color: #f4f4f4;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    padding-left: 530px;
+    font-weight: 550;
+}
+.apr{
+    padding-top: 7px;
+    font-family: sans-serif;
+    color: #f4f4f4;
+    font-size: 31px;
+    text-decoration: underline;
+    padding-left: 493px;
+    font-weight: 550;
+}
+.lease{
+    padding-top: 7px;
+    font-family: sans-serif;
+    color: #f4f4f4;
+    font-size: 16px;
+    padding-left: 517px;
+    font-weight: 550;
+}
+.sameb{
+    height: 40px;
+    width: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #3E6AE1;
+    color: #f4f4f4;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    border-radius: 4px;
+    
+}
+.sameb:hover{
+    color: #3E6AE1;
+    background-color: #f4f4f4;
+    transition: all 1s ease-out;
+}
+.samec{
+    height: 40px;
+    width: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #f4f4f4;
+    color: #3E6AE1;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    border-radius: 4px; 
+}
+.samec:hover{
+    color: #f4f4f4;
+    background-color: #3E6AE1;
+    transition: all 1s ease-out;
+}
+.but{
+    height: 40px;
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 350px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.hero2{
+    background-image: url("second.avif");
+    background-size: cover;
+    height: 625px; 
+}
+.hero3{
+    background-image: url("third.avif");
+    background-size: cover;
+    height: 625px;
+}
+.hero4{
+    background-image: url("fourth.avif");
+    background-size: cover;
+    height: 625px;
+}
+.aprs{
+    padding-top: 7px;
+    font-family: sans-serif;
+    color: #f4f4f4;
+    font-size: 29px;
+    padding-left: 537px;
+    font-weight: 550;
+}
+.leases{
+    padding-top: 7px;
+    font-family: sans-serif;
+    color: #f4f4f4;
+    font-size: 16px;
+    padding-left: 517px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+.hero5{
+    background-image: url("fifth.avif");
+    background-size: cover;
+    height: 625px;
+  
+}
+.samebt{
+    height: 40px;
+    width: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #171A20;
+    color: #f4f4f4;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    border-radius: 4px;
+    
+}
+.samebt:hover{
+    color: #171A20;
+    background-color: #f4f4f4;
+    transition: all 1s ease-out;
+}
+.samect{
+    height: 40px;
+    width: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #f4f4f4;
+    color: #171A20;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    border-radius: 4px; 
+}
+.samect:hover{
+    color: #f4f4f4;
+    background-color: #171A20;
+    transition: all 1s ease-out;
+}
+.butc{
+    height: 40px;
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 460px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.aprsl{
+    padding-top: 7px;
+    font-family: sans-serif;
+    color: #f4f4f4;
+    font-size: 29px;
+    padding-left: 420px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+.headingyz{
+    color: #f4f4f4;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    padding-left: 480px;
+    font-weight: 550;
+}
+.hero6{
+    background-image: url("sixth.avif");
+    background-size: cover;
+    height: 625px;
+}
+.hero7{
+    background-image: url("seventh.avif");
+    background-size: cover;
+    height: 525px;
+}
+.aprm{
+    padding-top: 14px;
+    font-family: sans-serif;
+    color: #f4f4f4;
+    font-size: 29px;
+    padding-left: 360px;
+    font-weight: 550;
+    
+}
+.headingyzb{
+    color: #f4f4f4;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    padding-left: 490px;
+    font-weight: 550;
+}
+.buts{
+    height: 40px;
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 290px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.hero8{
+    background-image: url("eighth.avif");
+    background-size: cover;
+    height: 525px;
+}
+.hero9{
+    background-image: url("ninth.avif");
+    background-size: cover;
+    height: 525px;
+}
+.footpanel1{
+    height: 402px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.textfoot{
+    height: 338px;
+    width: 595px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #5C5E62;
+    text-align: center;
+    
+}
+.p1{
+    line-height: 1.25rem;
+   
+}
+.terms{
+    text-decoration: underline;
+}
+.footpanelend{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.itemss{
+    width: 583px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.footnav{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #5C5E62;
+    font-weight: 550;
+}
